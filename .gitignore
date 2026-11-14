@@ -1,0 +1,30 @@
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Локальные модели
+models/
+
+# Корпоративные документы и векторная база
+data/documents/
+data/chroma/
+
+# Результаты экспериментов
+results/
+
+# Секреты
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# IDE
+.idea/
+.vscode/
+
+# Логи и временные файлы
+*.log
+.ipynb_checkpoints/

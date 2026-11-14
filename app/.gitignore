@@ -1,0 +1,30 @@
+# Виртуальное окружение
+.venv/
+
+# Кэш Python
+__pycache__/
+*.pyc
+
+# Локальные модели
+models/
+
+# Корпоративные документы
+data/documents/
+
+# Векторная база данных
+data/chroma/
+
+# Секреты и конфигурация
+.env
+.env.*
+!.env.example
+
+# Логи
+*.log
+
+# Настройки IDE
+.idea/
+.vscode/
+
+# Временные файлы
+.ipynb_checkpoints/
